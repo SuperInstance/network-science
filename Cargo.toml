@@ -1,0 +1,17 @@
+[package]
+name = "network-science"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/network-science"
+description = "Network science in Rust — centrality, community detection (Louvain, Girvan-Newman), epidemic models, PageRank, degree distributions"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+rand = "0.8"
+rand_distr = "0.4"
+rayon = "1.10"
+
+[dev-dependencies]
+approx = "0.5"
